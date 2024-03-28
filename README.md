@@ -1,4 +1,6 @@
 # dotfiles
 Screenshot
-- Cinnamon DE
+- DE : Cinnamon
+- Shell : Fish
+- Terminal : Gnome Terminal
 <img src="media/home.png">
