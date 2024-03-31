@@ -6,8 +6,21 @@
 
   home.stateVersion = "23.11";
 
-  home.packages = [
-    pkgs.hello
+  home.packages.pkgs = [
+    hello
+    firefox
+    wget  
+    vscodium  
+    neovim
+    git
+    rofi
+    discord
+    alacritty
+    fish
+    steam
+    corefonts
+    nerdfonts
+
   ];
 
   home.file = {
