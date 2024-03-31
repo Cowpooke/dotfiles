@@ -14,7 +14,6 @@
     pkgs.neovim
     pkgs.git
     pkgs.rofi
-    pkgs.discord
     pkgs.alacritty
     pkgs.fish
     pkgs.steam
