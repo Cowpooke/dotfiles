@@ -53,4 +53,6 @@
     fish.enable = true;
     steam.enable = true;
   };
+
+  nixpkgs.config.allowUnfree = true;
 }
