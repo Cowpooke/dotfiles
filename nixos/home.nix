@@ -1,14 +1,26 @@
 { config, pkgs, ... }:
 
-imports = [
-  ./packages/packages.nix
-];
-
 {
   home.username = "hilmy";
   home.homeDirectory = "/home/hilmy";
 
   home.stateVersion = "23.11";
+
+  home.packages = with pkgs [
+    hello
+    firefox
+    wget  
+    vscodium  
+    neovim
+    git
+    rofi
+    discord
+    alacritty
+    fish
+    steam
+    corefonts
+    nerdfonts
+  ];
 
   home.file = {
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
