@@ -16,7 +16,6 @@
     pkgs.rofi
     pkgs.alacritty
     pkgs.fish
-    pkgs.steam
     pkgs.corefonts
     pkgs.nerdfonts
   ];
